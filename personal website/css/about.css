@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  /* Available Fonts: 
+    
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'League Spartan';
+    
+    */
+}
+
+/* Navigation Bar */
+body {
+  background-color: #f2efeb;
+  overflow-x: hidden;
+  background-image: url("../images/marble-bg2-landscape.jpg");
+  background-size: cover;
+}
+header {
+  background-color: rgb(236, 231, 231);
+}
+nav {  
+  z-index: 5;
+  overflow: hidden;
+  position: sticky;
+  font-family: "Lato", sans-serif;
+  background-image: url("../images/romans-3450165.jpg");
+  padding-left: 60px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  padding: 20px 30px 25px 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1e2b49;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow */
+}
+
+li:hover {
+  background-color: #61697c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* Content */
+
+.landing-page {
+  background-color: #1e2b49;
+}
+
+.content {
+  padding: 50px;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  
+}
+.landing-page img {
+  width: 15%;
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 180px;
+  margin-top: 40px;
+}
+.landing-page h1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 10; /* Adjust the number of lines to display */
+  line-clamp: 10; /* Standard property for compatibility */
+  -webkit-box-orient: vertical;
+  font-size: 94px;
+  font-weight: bold;
+  font-family: "League Spartan";
+  color: white;
+  letter-spacing: 10px;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-size: 50px;
+}
+
+.main-section {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column; /* Stacks messages vertically */
+  gap: 20px; /* Add some space between messages */
+  max-height: 100vh;
+  padding: 50px 80px;
+  
+}
+
+.section-1, .section-2 {
+  max-width: 100%; /* Limit the width of each message */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-1 {
+  background-color: #e0e0e0;
+  align-self: flex-start; /* Aligns the message to the left */
+}
+
+.section-2 {
+  background-color: #d0d0d0;
+  align-self: flex-end; /* Aligns the message to the right */
+}
+
+.section-1 p, .section-2 p {
+  margin: 0;
+}
+

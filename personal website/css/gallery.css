@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+
+  /* Available Fonts: 
+    
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'League Spartan';
+    font-family: 'DM Sans', sans-serif;
+    
+    */
+}
+
+/* Navigation Bar */
+
+header {
+  background-color: #1e2b49;
+}
+nav {
+  z-index: 5;
+  overflow: hidden;
+  position: sticky;
+  font-family: "Lato", sans-serif;
+  padding-left: 60px;
+  background-image: url("../images/gabriel-ramos-XXj2Zf8xFEU-unsplash.jpg");
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  padding: 20px 30px 25px 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border: none;
+  text-shadow: 2px 2px 4px rgba(190, 146, 146, 0.5); /* Adding text shadow */
+}
+nav ul li:hover {
+  background-color: #61697c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: none;
+}
+
+/* Content */
+
+.main-content {
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  padding-right: 50px;
+}
+.logo img {
+  width: 47%;
+  padding: 20px;
+}
+.menu-bar {
+  width: 20%;
+}
+.menu-bar ul {
+  list-style: none;
+  flex-direction: column;
+}
+.menu-bar ul li {
+  padding: 0px 60px 40px 30px;
+}
+.menu-bar ul li:last-child {
+  height: 100%;
+  margin: auto;
+  padding-top: 15vh;
+}
+.menu-bar ul li p {
+  clear: right;
+  display: flex;
+  padding-left: 15px;
+  padding-top: 2.5px;
+}
+.menu-bar ul li img {
+  float: left;
+  width: 23px;
+}
+
+.follow-button {
+  background-color: #3897f0;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.follow-button:hover {
+  background-color: #1877c8;
+}
+
+.profile {
+  display: block;
+  margin: auto;
+}
+.profile-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.profile-details ul {
+  list-style: none;
+  padding-left: 50px;
+  display: flex;
+}
+.profile-details ul li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.profile-details ul li h3 {
+  padding-top: 5px;
+}
+.profile-details ul li strong {
+  padding-right: 5px;
+}
+.below-profile-details {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.bio {
+  padding-top: 10px;
+}
+.pronouns {
+  font-weight: bold;
+}
+.profile-img {
+  padding-right: 50px;
+}
+.profile-img img {
+  border-radius: 50%;
+  width: 120px;
+}
+.hr-below-profile {
+  width: 79%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.selection ul {
+  display: flex;
+  justify-content: center;
+}
+.selection ul li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.selection ul li img {
+  width: 20px;
+  float: left;
+  padding-left: 5px;
+}
+.selection ul li p {
+  display: flex;
+  padding-left: 5px;
+}
+
+.row {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  text-align: center;
+}
+.column {
+  display: flex;
+}
+.column img {
+  padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    clear: both;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
+.column1 {
+    display: flex;
+    
+}
+.column1 img {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    clear: both;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
