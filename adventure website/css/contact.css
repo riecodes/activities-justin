@@ -1,0 +1,83 @@
+/* Contact Us Form */
+.contact-form-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact-form-section h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    font-family: 'Figtree', sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+    display: block;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #ca4846;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Figtree', sans-serif;
+}
+
+.submit-btn:hover {
+    background-color: #fddfe1;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Figtree', sans-serif;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #333;
+}
