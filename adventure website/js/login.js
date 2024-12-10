@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (username === validUsername && password === validPassword) {
             alert("Login successful!");
-            window.location.href = "Home.html"; // Redirect to Home.html
+            window.location.href = "../html/Home.html"; // Redirect to Home.html
         } else {
             alert("Invalid username or password. Please try again.");
         }
